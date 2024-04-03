@@ -17,20 +17,20 @@ final class TabBarController: UITabBarController {
             tabBar.layer.shadowOffset = CGSize(width: 0, height: -3)
             tabBar.layer.shadowRadius = 1
         
-        tabBar.backgroundColor = .blue
+        tabBar.backgroundColor = .lightGray
         
         setupVCs()
     }
     
     private func setupVCs() {
         let dashboard = UINavigationController(
-            rootViewController: FirstTabBarViewController()
+            rootViewController: InfoTabBarViewController()
         )
         let orders = UINavigationController(
-            rootViewController: SecondTabBarViewController()
+            rootViewController: DownloadsTabBarViewController()
         )
         let notifications = UINavigationController(
-            rootViewController: ThirdTabBarViewController()
+            rootViewController: ListTabBarViewController()
         )
         
         dashboard.tabBarItem.image = .checkmark

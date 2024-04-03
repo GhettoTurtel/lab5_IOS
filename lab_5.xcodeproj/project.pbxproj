@@ -9,27 +9,31 @@
 /* Begin PBXBuildFile section */
 		071F7B7F2BACA21D00C1125E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071F7B7E2BACA21D00C1125E /* AppDelegate.swift */; };
 		071F7B812BACA21D00C1125E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071F7B802BACA21D00C1125E /* SceneDelegate.swift */; };
-		071F7B832BACA21D00C1125E /* FirstTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071F7B822BACA21D00C1125E /* FirstTabBarViewController.swift */; };
+		071F7B832BACA21D00C1125E /* InfoTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071F7B822BACA21D00C1125E /* InfoTabBarViewController.swift */; };
 		071F7B882BACA22300C1125E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 071F7B872BACA22300C1125E /* Assets.xcassets */; };
 		071F7B8B2BACA22300C1125E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 071F7B892BACA22300C1125E /* LaunchScreen.storyboard */; };
 		071F7B932BACB3C500C1125E /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071F7B922BACB3C500C1125E /* TabBarController.swift */; };
-		071F7B952BACB3DD00C1125E /* SecondTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071F7B942BACB3DD00C1125E /* SecondTabBarViewController.swift */; };
-		071F7B972BACB3EE00C1125E /* ThirdTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071F7B962BACB3EE00C1125E /* ThirdTabBarViewController.swift */; };
+		071F7B952BACB3DD00C1125E /* ListTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071F7B942BACB3DD00C1125E /* ListTabBarViewController.swift */; };
+		071F7B972BACB3EE00C1125E /* DownloadsTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071F7B962BACB3EE00C1125E /* DownloadsTabBarViewController.swift */; };
 		071F7B992BACB40600C1125E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071F7B982BACB40600C1125E /* SecondViewController.swift */; };
+		0755ACD12BBDF7DF00FDBC13 /* AuthorizationCont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0755ACD02BBDF7DF00FDBC13 /* AuthorizationCont.swift */; };
+		0755ACD32BBDF83700FDBC13 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0755ACD22BBDF83700FDBC13 /* UIHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		071F7B7B2BACA21D00C1125E /* lab_5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lab_5.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		071F7B7E2BACA21D00C1125E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		071F7B802BACA21D00C1125E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		071F7B822BACA21D00C1125E /* FirstTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTabBarViewController.swift; sourceTree = "<group>"; };
+		071F7B822BACA21D00C1125E /* InfoTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoTabBarViewController.swift; sourceTree = "<group>"; };
 		071F7B872BACA22300C1125E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		071F7B8A2BACA22300C1125E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		071F7B8C2BACA22300C1125E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		071F7B922BACB3C500C1125E /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
-		071F7B942BACB3DD00C1125E /* SecondTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTabBarViewController.swift; sourceTree = "<group>"; };
-		071F7B962BACB3EE00C1125E /* ThirdTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdTabBarViewController.swift; sourceTree = "<group>"; };
+		071F7B942BACB3DD00C1125E /* ListTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTabBarViewController.swift; sourceTree = "<group>"; };
+		071F7B962BACB3EE00C1125E /* DownloadsTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsTabBarViewController.swift; sourceTree = "<group>"; };
 		071F7B982BACB40600C1125E /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		0755ACD02BBDF7DF00FDBC13 /* AuthorizationCont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationCont.swift; sourceTree = "<group>"; };
+		0755ACD22BBDF83700FDBC13 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,11 +68,13 @@
 			children = (
 				071F7B7E2BACA21D00C1125E /* AppDelegate.swift */,
 				071F7B802BACA21D00C1125E /* SceneDelegate.swift */,
-				071F7B822BACA21D00C1125E /* FirstTabBarViewController.swift */,
+				071F7B822BACA21D00C1125E /* InfoTabBarViewController.swift */,
 				071F7B922BACB3C500C1125E /* TabBarController.swift */,
-				071F7B942BACB3DD00C1125E /* SecondTabBarViewController.swift */,
-				071F7B962BACB3EE00C1125E /* ThirdTabBarViewController.swift */,
+				071F7B942BACB3DD00C1125E /* ListTabBarViewController.swift */,
+				071F7B962BACB3EE00C1125E /* DownloadsTabBarViewController.swift */,
 				071F7B982BACB40600C1125E /* SecondViewController.swift */,
+				0755ACD22BBDF83700FDBC13 /* UIHelper.swift */,
+				0755ACD02BBDF7DF00FDBC13 /* AuthorizationCont.swift */,
 				071F7B872BACA22300C1125E /* Assets.xcassets */,
 				071F7B892BACA22300C1125E /* LaunchScreen.storyboard */,
 				071F7B8C2BACA22300C1125E /* Info.plist */,
@@ -146,13 +152,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				071F7B972BACB3EE00C1125E /* ThirdTabBarViewController.swift in Sources */,
-				071F7B832BACA21D00C1125E /* FirstTabBarViewController.swift in Sources */,
-				071F7B952BACB3DD00C1125E /* SecondTabBarViewController.swift in Sources */,
+				071F7B972BACB3EE00C1125E /* DownloadsTabBarViewController.swift in Sources */,
+				071F7B832BACA21D00C1125E /* InfoTabBarViewController.swift in Sources */,
+				071F7B952BACB3DD00C1125E /* ListTabBarViewController.swift in Sources */,
 				071F7B932BACB3C500C1125E /* TabBarController.swift in Sources */,
 				071F7B992BACB40600C1125E /* SecondViewController.swift in Sources */,
+				0755ACD32BBDF83700FDBC13 /* UIHelper.swift in Sources */,
 				071F7B7F2BACA21D00C1125E /* AppDelegate.swift in Sources */,
 				071F7B812BACA21D00C1125E /* SceneDelegate.swift in Sources */,
+				0755ACD12BBDF7DF00FDBC13 /* AuthorizationCont.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

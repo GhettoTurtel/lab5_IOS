@@ -1,13 +1,21 @@
+//
+//  SecondTabBarViewController.swift
+//  lab_5
+//
+//  Created by Damir Tansykov on 21.03.2024.
+//
+
 import UIKit
 
-class FirstTabBarViewController: UIViewController {
+class ListTabBarViewController: UIViewController {
+    
     private lazy var continueButton: UIButton = {
         let button = UIButton()
-            button.backgroundColor = .purple
+            button.backgroundColor = .yellow
             button.setTitle("continue", for: .normal)
             button.translatesAutoresizingMaskIntoConstraints = false
             button.layer.cornerRadius = 12
-            button.setTitleColor(.white, for: .normal)
+            button.setTitleColor(.black, for: .normal)
             button.addTarget(self, action: #selector(buttonDidTap), for: .touchUpInside)
         
             return button
@@ -16,7 +24,7 @@ class FirstTabBarViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.backgroundColor = .darkGray
+        view.backgroundColor = .green
         setupViews()
     }
     
@@ -24,7 +32,7 @@ class FirstTabBarViewController: UIViewController {
     private func buttonDidTap() {
         let viewController = SecondViewController()
         
-        viewController.configure(titleText: "Survive - Jorge Rivera-Herrans")
+        viewController.configure(titleText: "MusicList")
         self.navigationController?.pushViewController(viewController, animated: true)
     }
 
